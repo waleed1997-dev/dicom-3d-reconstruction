@@ -1,0 +1,12 @@
+# Medical image data: never commit (large, and governed by the dataset's own terms)
+*.dcm
+*.tcia
+*.zip
+data/
+manifest-*/
+
+# Python / notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
